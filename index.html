@@ -27,16 +27,7 @@
   </head>
 
   <body id="page-top">
-
-    
-
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary" id="sideNav">
-      <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none"></span>
-        <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="profile picture">
-        </span>
-      </a> -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -50,6 +41,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#por">POR</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#education">Education</a>
@@ -71,23 +65,19 @@
     </nav>
 
     <div class="container-fluid p-0">
-      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" width="350" height="350"  alt="profile picture">
 
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-        <div class="my-auto">   
-        <div class="name_pic">
+        <div class="my-auto">
+
+        <div class="intro">
           <h1 class="mb-0">Naman
             <span class="text-primary">Jain</span>
           </h1>
-          <!-- <span class="d-none d-lg-block">
-          </span> -->
           <div class="subheading mb-5">Raipur (CG) - Kanpur (UP), India
             <br>
             <a href="mailto:jnaman20@iitk.ac.in">jnaman20@iitk.ac.in</a>
           </div>
-        </div>
-        <br><br>
-          <p class="mb-5 intro">I am exploring the world of software development and computational problem solving. I like to inspect business case studies and engage in research activities that involve real-world problem solving, potentially create a social impact. I will be joining Ingram Micro, Mumbai office as a software development engineer.   </p>
+          <p class="mb-5">I am exploring the world of software development and computational problem solving. I like to inspect business case studies and engage in research activities that involve real-world problem solving, potentially create a social impact. I will be joining Ingram Micro, Mumbai office as a software development engineer.   </p>
           <br>
           <ul class="list-inline list-social-icons mb-0">
             <!-- <li class="list-inline-item">
@@ -133,6 +123,11 @@
             </li>
           </ul>
         </div>
+
+        <div id="img-header">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" width="350" height="350"  alt="profile picture">
+        </div>
+        </div>
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experiences">
@@ -143,16 +138,10 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Software Developer Intern</h3>
               <div class="subheading mb-3">LTIMindtree Limited</div>
-              <p>Objective: <br>Develop AI features for a chatbot used by BU heads for IP & patent management, using MS Bot Framework SDK
-                <br><br>Approach:
-                <br>● Pilot test for replacing CQA model with Conversational Language Understanding model in MS Language Studio
-                <br>● Built a QnA generator in python that periodically extracts data from website into a structured dataset in tsv file
-                <br>● Established a react API channel to fetch username & profile picture from website and display it on chatbot iframe
-                <br>● Engineered an optimal threshold value of confidence score to call for fallback or reply with top related questions
-                <br>● Built a collaborative testing environment using ngrok to establish live local server, Azure bot & language services
-                <br><br>Result:
-                <br>● Standardized communication flow using react.js frontend, node.js backend to improve accuracy & response speed
-                <br>● 400+ new QnA pairs with interactive chitchat were added using Azure Cognitive Services and bot sent for UAT</p>
+                <p>● Developed multiples features to improve the performance and user experience of an AI chatbot.
+                  <br>● Microsoft Azure's AI cognitive services and bot was used to build the langauge model.
+                  <br>● React frontend, Node.js Backend, ngrok for local tunneling and testing, python was used for making a QnA pair generator.
+                </p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">May’23 - Jul’23</span>
@@ -163,13 +152,9 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Research Intern</h3>
               <div class="subheading mb-3">SURGE 2022, IIT Kanpur (Mentor - Prof. Niraj M. Chawake)</div>
-              <p>Objective:<br>Search, analyse, predict, and generate creep curve plots for α-β Titanium (Ti-6 Al-4) based high temperature alloys
-                <br><br>Approach:
-                <br>● Data mined to selectively extract and store creep data from pdf of 10+ research papers using python and NLP
-                <br>● Feature engineered 4 out of 7 variables through principal component analysis (PCA) and Pearson correlation
-                <br>● Evaluated performance through 9 Regression Models to predict unknown variables at new temperature
-                <br><br>Result:<br> ● Formulated framework massively help to design parts with low geometrical tolerance; Report accepted by SURGE</p>
-              <!-- <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p> -->
+              <p>● Developed a framework to predict creep plots for High temperature alloys (Ti based) at new conditions.
+                <br>● Feature engineered and evaluated performance of multiple regression models to predict unknown variables at new temperature
+                <br>● Formulated framework massively help to design parts with low geometrical tolerance; Report accepted by SURGE</p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">May'22  - Aug'22</span>
@@ -212,22 +197,55 @@
 
         </div>
 
-    </section>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="por">
+        <div class="my-auto">
+          <h2 class="mb-5">Position of Responsibility</h2>
+
+      <div class="resume-item d-flex flex-column flex-md-row mb-5">
+        <div class="resume-content mr-auto">
+          <h3 class="mb-0">Coordinator</h3>
+          <div class="subheading mb-3">Game Development Club, IITK</div>
+          <p>● Leading a 3-tier team of 40+ members to foster Game Development by organizing game jams, workshops & projects
+            <br>● Played a pivotal role in promoting the stature of GameDev, IITK from a society to a club in the SnT Council, IITK 
+            <br>● Coordinated in organizing SnT Pavillion, GameDev Bootcamp, Techkriti'23 competitions, SnT summer projects</p>
+          <!-- <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p> -->
+        </div>
+        <div class="resume-date text-md-right">
+          <span class="text-primary">May'22 - Apr'23</span>
+        </div>
+      </div>
+
+      <div class="resume-item d-flex flex-column flex-md-row">
+        <div class="resume-content mr-auto">
+          <h3 class="mb-0">Founder and UG-Convener</h3>
+          <div class="subheading mb-3">The Materials Society - MatSoc, IITK</div>
+          <p>● Founded a 600+ member Departmental Society to engage & promote MSE research & technology awareness 
+            <br>● Headed a team of 20+ & organized Orientation, Farewell, 6 alumni talks & workshops, Research Scholars' Day 
+            <br>● Laid foundation to annual MatSoc Newsletter, Alum Connect Program, Summer Core projects, website & socials</p>
+          <!-- <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p> -->
+        </div>
+        <div class="resume-date text-md-right">
+          <span class="text-primary">Jun'22 - Jul'23</span>
+        </div>
+      </div>
+
+    </div>
+
+      </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
         <div class="my-auto">
           <h2 class="mb-5">Education</h2>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Indian Institute Of Technology Kanpur</h3>
               <div class="subheading mb-3 together">Bachelor of Technology - Materials Science and Engineering</div>
-              <!-- &nbsp&nbsp&nbsp&nbsp
-              <div class="together">Materials Science and Engineering</div> -->
-              <!-- <p>CPI: 7.76</p> -->
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">Nov 2020 - July 2024</span>
+              <span class="text-primary">Nov'20 - Jul'24</span>
             </div>
           </div>
 
@@ -235,10 +253,9 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">LBS Convent School, Kota (RJ, India)</h3>
               <div class="subheading mb-3">Higher Secondary Education</div>
-              <!-- <p>92.8%</p> -->
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">Aug 2019 - May 2020</span>
+              <span class="text-primary">Aug'19 - May'20</span>
             </div>
           </div>
 
@@ -249,7 +266,7 @@
               <!-- <p>97.8%</p> -->
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">Aug 2017 - May 2018</span>
+              <span class="text-primary">Aug'17 - May'18</span>
             </div>
           </div>
 

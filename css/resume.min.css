@@ -34,9 +34,6 @@ h2 {
   font-family: "Saira Extra Condensed", serif;
   font-size: 1.35rem;
 }
-.together{
-  display: inline-block;
-}
 .list-social-icons a {
   color: #495057;
 }
@@ -52,26 +49,30 @@ h2 {
 .list-icons .list-inline-item i:hover {
   color: #bd5d38;
 }
-.img-profile{
-  position: absolute;
-  display: block;
-  right:10%;
-  top:12%;
-        /* margin-left: auto;
-        margin-right: auto; */
+#img-header{
+  margin-right:10%;
+  text-align: right;
+  float: left;
 }
-
+.img-profile{
+  width: 65%;
+  display: block;
+  border-style: solid;
+  border-width: thick;
+  border-color: #495057;
+}
 .intro{
-  position: absolute;
-  right:40%;
-  top:40%;
-  left:4rem;
+  width:50%;
+  text-align: left;
+  float: left;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
   display: inline;
   justify-content: center;
+  vertical-align: middle;
+  text-align: right;
   text-transform: uppercase; }
 
 @media (min-width: 992px) {
@@ -82,23 +83,17 @@ h2 {
     flex-direction: row;
     width: 100%;
      }
-    /* #sideNav .navbar-brand {
-      display: flex;
-      margin: auto auto 0;
-      padding: 0.5rem; } */
-      /* #sideNav .navbar-brand .img-profile {
-        max-width: 10rem;
-        max-height: 10rem;
-        border: 0.5rem solid rgba(255, 255, 255, 0.2); } */
     #sideNav .navbar-collapse {
       display: flex;
       align-items: flex-start;
       flex-grow: 0;
+      vertical-align: middle;
       width: 100%;
       margin-bottom: auto; }
       #sideNav .navbar-collapse .navbar-nav {
         flex-direction: row;
         text-align: center;
+        vertical-align: middle;
         justify-content: center;
         width: 100%; }
         #sideNav .navbar-collapse .navbar-nav .nav-item {
@@ -111,7 +106,7 @@ h2 {
 section.resume-section {
   border-bottom: 1px solid #dee2e6;
   padding-top: 0;
-  padding-bottom: 0;
+  padding-bottom: 0;  
 }
 section.resume-section .resume-item .resume-date {
   min-width: none;
@@ -119,6 +114,7 @@ section.resume-section .resume-item .resume-date {
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 0;
+    
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
@@ -126,6 +122,7 @@ section.resume-section .resume-item .resume-date {
 }
 @media (min-width: 992px) {
   section.resume-section {
+    
     padding-top: 0;
     padding-bottom: 0;
   }
